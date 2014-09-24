@@ -4,12 +4,11 @@ class GitIgnore < Formula
   homepage 'https://github.com/imwithye/git-ignore'
 
   # Use the tag instead of the tarball to get submodules
-  url 'https://github.com/imwithye/git-ignore.git', :tag => 'v0.2'
+  url 'https://github.com/imwithye/git-ignore.git', :tag => 'v0.3'
 
   def install
-    prefix.install "LICENSE", "README.md"
-    prefix.install "git-ignore" => "include"
-    bin.install_symlink "#{include}/git_ignore.py" => "git-ignore"
+    prefix.install "git-ignore" => "core"
+    bin.install_symlink "#{prefix}/core/git_ignore.py" => "git-ignore"
   end
   
   test do

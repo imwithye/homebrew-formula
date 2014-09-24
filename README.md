@@ -1,4 +1,4 @@
-Homebrew-Formulae
+Homebrew-Formula
 =================
 
 Macintosh softwares distributed by Ciel. Enjoy:)
@@ -8,7 +8,7 @@ Macintosh softwares distributed by Ciel. Enjoy:)
 Tap this repository:
 
 ```Bash
-brew tap imwithye/formulae
+brew tap imwithye/formula
 ```
 
 Install the packages it contains like any other Homebrew package:

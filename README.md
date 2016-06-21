@@ -21,4 +21,4 @@ brew install git-ignore
 
 Submit pull requests against the respective repositories:
 
-- [git-ignore](https://github.com/imwithye/git-ignore)
+- [git-ignore](https://github.com/imwithye/gitignore)

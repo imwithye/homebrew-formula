@@ -3,7 +3,7 @@ class GitIgnore < Formula
 	homepage "https://github.com/imwithye/gitignore"
 	version "v1.0.3"
 	url "https://github.com/imwithye/gitignore/releases/download/#{version}/git-ignore_darwin_amd64"
-	sha256 "1d53a84720a129c16e91ebe3a16b8dc687d87b72ffad7cfc2c5f1871ecf0bd54"
+	sha256 "088b153c60c40794d3492e38d13bd8932a10dad46f152bb0b97c3621fa1a2c97"
 
 	def install
 		bin.install "git-ignore_darwin_amd64" => "git-ignore"
